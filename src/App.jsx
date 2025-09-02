@@ -9,6 +9,7 @@ function App() {
     <main>
       <Navbar/>
       <Hero/>
+      <div className='w-full h-screen bg-black'></div>
     </main>
   )
 }
