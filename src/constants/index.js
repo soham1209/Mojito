@@ -9,7 +9,7 @@ const navLinks = [
  },
  {
 	id: "work",
-	title: "The Art",
+	title: "Our Craft",
  },
  {
 	id: "contact",
@@ -19,55 +19,55 @@ const navLinks = [
 
 const cocktailLists = [
  {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Caten Malbee",
-	country: "AU",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Rhino Pale Ale",
-	country: "CA",
+	name: "Old Monk Rum",
+	country: "IN",
 	detail: "750 ml",
-	price: "$20",
+	price: "₹750",
  },
  {
-	name: "Irish Guinness",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
+	name: "Kingfisher Premium",
+	country: "IN",
+	detail: "650 ml",
+	price: "₹180",
+ },
+ {
+	name: "Sula Shiraz",
+	country: "IN",
+	detail: "750 ml",
+	price: "₹950",
+ },
+ {
+	name: "Amrut Fusion Whisky",
+	country: "IN",
+	detail: "750 ml",
+	price: "₹3,000",
  },
 ];
 
 const mockTailLists = [
  {
-	name: "Tropical Bloom",
-	country: "US",
-	detail: "Battle",
-	price: "$10",
+	name: "Masala Shikanji",
+	country: "IN",
+	detail: "Glass",
+	price: "₹80",
  },
  {
-	name: "Passionfruit Mint",
-	country: "US",
-	detail: "Battle",
-	price: "$49",
+	name: "Aam Panna",
+	country: "IN",
+	detail: "Glass",
+	price: "₹100",
  },
  {
-	name: "Citrus Glow",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
+	name: "Rose Lassi",
+	country: "IN",
+	detail: "Glass",
+	price: "₹120",
  },
  {
-	name: "Lavender Fizz",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
+	name: "Tender Coconut Cooler",
+	country: "IN",
+	detail: "Glass",
+	price: "₹90",
  },
 ];
 
@@ -87,33 +87,33 @@ const profileLists = [
 ];
 
 const featureLists = [
- "Perfectly balanced blends",
- "Garnished to perfection",
- "Ice-cold every time",
- "Expertly shaken & stirred",
+ "Authentic Indian flavors",
+ "Fresh & seasonal ingredients",
+ "Chilled to perfection",
+ "Blended with passion",
 ];
 
 const goodLists = [
- "Handpicked ingredients",
- "Signature techniques",
- "Bartending artistry in action",
- "Freshly muddled flavors",
+ "Locally sourced ingredients",
+ "Traditional Indian techniques",
+ "Bartending artistry",
+ "Refreshing desi twists",
 ];
 
 const storeInfo = {
  heading: "Where to Find Us",
- address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
+ address: "12 MG Road, Pune, Maharashtra 411001, India",
  contact: {
-	phone: "(555) 987-6543",
-	email: "hello@jsmcocktail.com",
+	phone: "+91 98765 43210",
+	email: "contact@indibar.com",
  },
 };
 
 const openingHours = [
- { day: "Mon–Thu", time: "11:00am – 12am" },
- { day: "Fri", time: "11:00am – 2am" },
- { day: "Sat", time: "9:00am – 2am" },
- { day: "Sun", time: "9:00am – 1am" },
+ { day: "Mon-Thu", time: "12:00pm - 11:00pm" },
+ { day: "Fri", time: "12:00pm - 1:00am" },
+ { day: "Sat", time: "11:00am - 1:00am" },
+ { day: "Sun", time: "11:00am - 11:00pm" },
 ];
 
 const socials = [
@@ -137,35 +137,35 @@ const socials = [
 const allCocktails = [
  {
 	id: 1,
-	name: "Classic Mojito",
+	name: "Mango Mojito",
 	image: "/images/drink1.png",
-	title: "Simple Ingredients, Bold Flavor",
+	title: "India’s Summer in a Glass",
 	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+	 "Refreshing mojito infused with fresh mangoes, mint, and lime—perfect for beating the Indian summer heat.",
  },
  {
 	id: 2,
-	name: "Raspberry Mojito",
+	name: "Masala Margarita",
 	image: "/images/drink2.png",
-	title: "A Zesty Classic That Never Fails",
+	title: "A Spicy Desi Twist",
 	description:
-	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+	 "Classic margarita upgraded with a hint of chaat masala and chili salt rim for that true Indian zing.",
  },
  {
 	id: 3,
-	name: "Violet Breeze",
+	name: "Rose and Cardamom Martini",
 	image: "/images/drink3.png",
-	title: "Simple Ingredients, Bold Flavor",
+	title: "Floral Elegance",
 	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+	 "A fragrant mix of rose syrup, cardamom, and vodka—blending tradition with sophistication.",
  },
  {
 	id: 4,
-	name: "Curacao Mojito",
+	name: "Coconut Toddy",
 	image: "/images/drink4.png",
-	title: "Crafted With Care, Poured With Love",
+	title: "From the Coasts of Kerala",
 	description:
-	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+	 "Inspired by Kerala’s famous toddy, crafted with coconut water, rum, and subtle spices.",
  },
 ];
 
