@@ -79,7 +79,7 @@ function Hero() {
           alt="right-leaf"
           className="right-leaf"
         />
-        <div className="body">
+        <div className="body w-4/5 mx-auto">
           <div className="content">
             <div className=" space-y-5 hidden md:block">
               <p>Cool. Crisp. Classic.</p>

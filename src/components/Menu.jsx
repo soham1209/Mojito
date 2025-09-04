@@ -71,7 +71,9 @@ function Menu() {
   const nextCocktail = getCocktailAt(1);
 
   return (
+
     <section ref={sectionRef} className="overflow-hidden" id="menu" aria-labelledby="menu-heading">
+      <div className="w-4/5 mx-auto">
       <img src="/images/slider-left-leaf.png" alt="left-leaf" id="m-left-leaf"/>
       <img src="/images/slider-right-leaf.png" alt="right-leaf" id="m-right-leaf" />
 
@@ -119,7 +121,9 @@ function Menu() {
           </div>
         </div>
       </div>
+      </div>
     </section>
+
   );
 }
 

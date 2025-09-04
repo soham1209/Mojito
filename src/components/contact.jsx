@@ -4,7 +4,7 @@ import { openingHours, socials } from "../constants";
 import { SplitText } from "gsap/all";
 import { useGSAP } from "@gsap/react";
 
-function contact() {
+function Contact() {
   useGSAP(() => {
     const titleSplit = SplitText.create("#contact h2", { type: "word" });
 
@@ -95,4 +95,4 @@ function contact() {
   );
 }
 
-export default contact;
+export default Contact;
